@@ -63,11 +63,6 @@ const DraftEditor = () => {
     editor.current.focus();
   };
 
-  const getConverted = () => {
-    const contentState = editorState.getCurrentContent();
-    console.log(convertToRaw(contentState));
-  };
-
   const handleKeyCommand = (command) => {
     const newState = RichUtils.handleKeyCommand(editorState, command);
     if (newState) {
@@ -150,7 +145,6 @@ const DraftEditor = () => {
           }}
         />
       </div>
-      <button onClick={getConverted}>GetState</button>
     </div>
   );
 };

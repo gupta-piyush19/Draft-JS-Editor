@@ -20,10 +20,10 @@ body {
 
 .editor-container {
   width: 100%;
-
   border: 1px solid green;
   padding: 1rem;
 }
+
 .toolbar-grid {
   display: flex;
   flex-wrap: wrap;

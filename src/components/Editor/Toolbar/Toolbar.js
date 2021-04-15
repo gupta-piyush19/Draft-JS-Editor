@@ -158,7 +158,6 @@ const Toolbar = ({ editorState, setEditorState }) => {
     <div className="toolbar-grid">
       {tools.map((item, idx) => (
         <button
-          isActive={isActive(item.style, item.method)}
           style={{
             color: isActive(item.style, item.method)
               ? "rgba(0, 0, 0, 1)"
@@ -167,6 +166,7 @@ const Toolbar = ({ editorState, setEditorState }) => {
           key={`${item.label}-${idx}`}
           title={item.label}
           onClick={(e) => applyStyle(e, item.style, item.method)}
+          onMouseDown={(e) => e.preventDefault()}
         >
           {item.icon || item.label}
         </button>

@@ -10,7 +10,7 @@ A Text-editor with **super** *cool* <ins>features</ins> built in [Draft.js](http
 - Working on a Full-Stack Blog App(Blogic), where this editor will serve for blog writing.
 - Will release NPM package of this editor.
 
-## Upcoming Features :
+## Upcoming Features:
 
 - Font size changable
 - Font type changable
@@ -18,7 +18,7 @@ A Text-editor with **super** *cool* <ins>features</ins> built in [Draft.js](http
 - Image Insertion
 - Link Insertion(Hyperlinks)
 
-## Installation
+## Installation:
 
 1. Clone the repository. `git clone https://github.com/gupta-piyush19/Draft-JS-Editor.git`
 2. Go to the project directory.
